@@ -12,9 +12,17 @@ y dni) y que nos permita calcular el monto que se le debe pagar a cada uno.
 */
 
 class Empleado{
-    constructor(nombre,apellido,dni){
+    constructor(nombre,apellido,dni,tipoEmpleado){
         this.nombre = nombre
         this.apellido = apellido
         this.dni = dni
+        this.tipoEmpleado = tipoEmpleado
+    }
+
+}
+
+class TipoEmpleado{
+    calcularSueldo(){
+        
     }
 }
