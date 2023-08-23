@@ -4,9 +4,8 @@ array2 = [ 4, 8, 2, -5, 20]
 
 
 function fn(arr){
-    const copia = [...arr]
-    copia.sort((a, b) => a-b)
-    const menor = copia[0]
+    const ordenado = [...arr].sort((a, b) => a-b)
+    const menor = ordenado[0]
     return arr.map(n => n+menor)
 }
 
