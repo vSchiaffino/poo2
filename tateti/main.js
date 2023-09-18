@@ -142,5 +142,6 @@ while (!tablero.hayLinea()) {
   turno = !turno
 }
 
+
 console.log(tablero.toString())
 console.log(`Gano ${turnoDe}`)
